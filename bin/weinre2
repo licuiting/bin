@@ -1,0 +1,4 @@
+#!/bin/sh
+killall weinre
+weinre &>/dev/null &
+echo "weinre init ok"

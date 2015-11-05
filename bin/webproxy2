@@ -1,0 +1,4 @@
+#!/bin/sh
+killall webproxy-v1.0.2
+webproxy &>/dev/null &
+echo "ok"

@@ -1,0 +1,5 @@
+#!/bin/sh
+sudo killall php-fpm
+sudo killall nginx
+sudo php-fpm
+sudo /usr/local/bin/nginx
