@@ -1,4 +1,5 @@
 alias ll='ls -ol'
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 PATH=.bin:.:~/bin:$PATH
 export PATH
 #export PATH=/usr/local/bin:$PATH
